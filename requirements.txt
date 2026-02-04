@@ -1,0 +1,32 @@
+# Core
+numpy
+pandas
+opencv-python
+pillow
+pyyaml
+
+# OCR
+pytesseract
+paddleocr
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+transformers
+sentencepiece
+
+# Layout / Document AI
+timm
+
+# NLP / Semantic
+scikit-learn
+scipy
+
+# API
+fastapi
+uvicorn
+
+# Utils
+pdf2image
+python-multipart

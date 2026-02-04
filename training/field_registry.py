@@ -1,0 +1,41 @@
+FIELD_REGISTRY = {
+    # Invoice
+    "INVOICE_NO": "INVOICE_NO",
+    "INVOICE_DATE": "INVOICE_DATE",
+
+    # Seller
+    "SELLER_NAME": "SELLER_NAME",
+    "SELLER_ADDRESS": "SELLER_ADDRESS",
+    "SELLER_PHONE": "SELLER_PHONE",
+    "SELLER_EMAIL": "SELLER_EMAIL",
+    "SELLER_GST_NO": "SELLER_GST_NO",
+    "SELLER_PAN_NO": "SELLER_PAN_NO",
+    "SELLER_STATE": "SELLER_STATE",
+
+    # Buyer
+    "BUYER_NAME": "BUYER_NAME",
+    "BUYER_ADDRESS": "BUYER_ADDRESS",
+    "BUYER_PHONE": "BUYER_PHONE",
+    "BUYER_EMAIL": "BUYER_EMAIL",
+    "BUYER_GST_NO": "BUYER_GST_NO",
+    "BUYER_PAN_NO": "BUYER_PAN_NO",
+    "BUYER_STATE": "BUYER_STATE",
+
+    # Items
+    "ITEM_NAME": "ITEM_NAME",
+    "ITEM_QTY": "ITEM_QTY",
+    "ITEM_UNIT_RATE": "ITEM_UNIT_RATE",
+
+    # Amount
+    "TOTAL_AMOUNT": "TOTAL_AMOUNT",
+
+    # Bank
+    "BANK_NAME": "BANK_NAME",
+    "ACCOUNT_NUMBER": "ACCOUNT_NUMBER",
+    "IFSC_CODE": "IFSC_CODE",
+
+    # Taxes (⚠ MUST MATCH CASE IN LABEL STUDIO)
+    "igst": "igst",
+    "cgst": "cgst",
+    "sgst": "sgst",
+}

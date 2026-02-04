@@ -1,0 +1,60 @@
+# ========================
+# Python / Virtual Env
+# ========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# OS / Editor files
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+label_studio.env
+
+# ========================
+# Training outputs (VERY IMPORTANT)
+# ========================
+training/runs/
+training/vis/
+training/data/
+training/gold/
+
+# ========================
+# Label Studio exports
+# ========================
+labelstudio_exports/
+labelstudio/
+
+# ========================
+# Model checkpoints & weights
+# ========================
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+
+# ========================
+# Generated images / debug outputs
+# ========================
+*.png
+*.jpg
+*.jpeg
+
+# ========================
+# Logs
+# ========================
+*.log
